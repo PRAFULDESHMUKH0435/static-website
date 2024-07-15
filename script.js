@@ -110,12 +110,14 @@ function forLinkedIn(){
     var url = "https://www.linkedin.com/in/praful-deshmukh068/" 
     window.open(url, '_blank').focus();
 }
-function forPatreon(){
-    var url = "https://www.patreon.com/prafuldeshmukh/shop" 
-    window.open(url, '_blank').focus();
-}
 
 function forGithub(){
     var url = "https://github.com/PRAFULDESHMUKH0435?tab=repositories" 
+    window.open(url, '_blank').focus();
+}
+
+
+function forPatreon(){
+    var url = "https://www.patreon.com/prafuldeshmukh/shop" 
     window.open(url, '_blank').focus();
 }
