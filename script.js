@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Android Designer and Developer","Flutter Developer", "Software Engineer"],
+        strings: ["Flutter Developer","Android Developer and Designer", "Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Android Designer and Developer","Flutter Developer", "Software Engineer"],
+        strings: ["Flutter Developer","Android Developer and Designer", "Software Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -108,6 +108,10 @@ function  forINSECURECBS(){
 
 function forLinkedIn(){
     var url = "https://www.linkedin.com/in/praful-deshmukh068/" 
+    window.open(url, '_blank').focus();
+}
+function forPatreon(){
+    var url = "https://www.patreon.com/prafuldeshmukh/shop" 
     window.open(url, '_blank').focus();
 }
 
